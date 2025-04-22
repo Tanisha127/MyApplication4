@@ -87,7 +87,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Indulge in freshly baked homemade cookies made with love! Available in classic chocolate chip, oats & raisins, butter, and nutty crunch. No preservatives, just pure goodness in every bite. Great for gifting or satisfying your sweet tooth!"
+                android:text="Indulge in freshly baked homemade cookies made with love! Available in classic chocolate chip, oats &amp; raisins, butter, and nutty crunch. No preservatives, just pure goodness in every bite. Great for gifting or satisfying your sweet tooth!"
                 android:textSize="16sp"
                 android:textColor="#555555" />
 

@@ -5,7 +5,7 @@ import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.MyApplication.R
+import com.example.myapplication.R
 
 class HomeScreen01Activity : AppCompatActivity() {
 

@@ -66,7 +66,7 @@
                         android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/n"
+                        android:src="@drawable/naturalsoap2"
                         android:contentDescription="Natural Soap Image 2" />
                 </LinearLayout>
             </HorizontalScrollView>
@@ -151,8 +151,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Owner: Meera Shah"
-                    android:textSize="18sp"
-                    android:textStyle="medium" />
+                    android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="wrap_content"

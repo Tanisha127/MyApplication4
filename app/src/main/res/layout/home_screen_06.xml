@@ -63,6 +63,7 @@
                 android:background="#FFFFFF">
 
                 <LinearLayout
+                    android:id="@+id/face_pack_section"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -110,6 +111,7 @@
                 android:background="#FFFFFF">
 
                 <LinearLayout
+                    android:id="@+id/lip_balm_section"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -157,6 +159,7 @@
                 android:background="#FFFFFF">
 
                 <LinearLayout
+                    android:id="@+id/body_scrubs_section"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -204,6 +207,7 @@
                 android:background="#FFFFFF">
 
                 <LinearLayout
+                    android:id="@+id/soaps_section"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
