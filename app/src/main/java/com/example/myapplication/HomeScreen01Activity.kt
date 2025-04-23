@@ -15,7 +15,7 @@ class HomeScreen01Activity : AppCompatActivity() {
         // Connect the profile icon click to BuyerProfileActivity
         val navProfile = findViewById<LinearLayout>(R.id.navProfile)
         navProfile.setOnClickListener {
-            Log.d("ProfileClick", "Profile icon clicked")
+            Log.d("HomeScreen", "Profile clicked!")
             val intent = Intent(this, BuyerProfileActivity::class.java)
             startActivity(intent)
         }

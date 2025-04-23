@@ -24,6 +24,14 @@
             </intent-filter>
         </activity>
 
+        <!-- Home Screen Activities -->
+        <activity android:name=".HomeScreen01Activity" android:exported="true" />
+        <activity android:name=".HomeScreen02Activity" android:exported="true" />
+        <activity android:name=".HomeScreen03Activity" android:exported="true" />
+        <activity android:name=".HomeScreen04Activity" android:exported="true" />
+        <activity android:name=".HomeScreen05Activity" android:exported="true" />
+        <activity android:name=".HomeScreen06Activity" android:exported="true" />
+
         <!-- Existing Activities -->
         <activity android:name=".MainActivity" android:exported="true" />
         <activity android:name=".AccessoriesActivity" />
@@ -65,8 +73,8 @@
         <activity android:name=".GrowthActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".LearningResourcesActivity" />
-        <activity android:name=".BuyerProfileActivity" />
+
+        <activity android:name=".BuyerProfileActivity" android:exported="true"/>
 
     </application>
-
 </manifest>
