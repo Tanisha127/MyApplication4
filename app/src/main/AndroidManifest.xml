@@ -65,6 +65,7 @@
         <activity android:name=".GrowthActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".LearningResourcesActivity" />
+        <activity android:name=".BuyerProfileActivity" />
 
     </application>
 
