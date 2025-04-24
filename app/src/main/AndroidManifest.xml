@@ -72,7 +72,7 @@
         <activity android:name=".ProductActivity" android:exported="true" />
         <activity android:name=".GrowthActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".LearningResourcesActivity" />
+        <activity android:name=".LearningResourcesActivity" android:windowSoftInputMode="adjustResize"/>
 
         <activity android:name=".BuyerProfileActivity" android:exported="true"/>
 

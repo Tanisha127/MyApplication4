@@ -51,7 +51,7 @@
                 android:rowOrderPreserved="false"
                 android:useDefaultMargins="true">
 
-                <!-- Circle Stat Block Template -->
+                <!-- Stat 1 -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -64,12 +64,13 @@
                         android:layout_height="100dp">
 
                         <ProgressBar
-                            style="?android:attr/progressBarStyleLarge"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:indeterminate="false"
                             android:progress="80"
                             android:max="100"
-                            android:progressDrawable="@drawable/progress_yellow" />
+                            android:progressDrawable="@drawable/progress_yellow"
+                            android:layout_gravity="center" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -89,6 +90,7 @@
                         android:layout_marginTop="8dp" />
                 </LinearLayout>
 
+                <!-- Stat 2 -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -101,12 +103,13 @@
                         android:layout_height="100dp">
 
                         <ProgressBar
-                            style="?android:attr/progressBarStyleLarge"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:indeterminate="false"
                             android:progress="65"
                             android:max="100"
-                            android:progressDrawable="@drawable/progress_yellow" />
+                            android:progressDrawable="@drawable/progress_yellow"
+                            android:layout_gravity="center" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -126,6 +129,7 @@
                         android:layout_marginTop="8dp" />
                 </LinearLayout>
 
+                <!-- Stat 3 -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -138,12 +142,13 @@
                         android:layout_height="100dp">
 
                         <ProgressBar
-                            style="?android:attr/progressBarStyleLarge"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:indeterminate="false"
                             android:progress="45"
                             android:max="100"
-                            android:progressDrawable="@drawable/progress_yellow" />
+                            android:progressDrawable="@drawable/progress_yellow"
+                            android:layout_gravity="center" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -163,6 +168,7 @@
                         android:layout_marginTop="8dp" />
                 </LinearLayout>
 
+                <!-- Stat 4 -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -175,12 +181,13 @@
                         android:layout_height="100dp">
 
                         <ProgressBar
-                            style="?android:attr/progressBarStyleLarge"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:indeterminate="false"
                             android:progress="92"
                             android:max="100"
-                            android:progressDrawable="@drawable/progress_yellow" />
+                            android:progressDrawable="@drawable/progress_yellow"
+                            android:layout_gravity="center" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -200,9 +207,7 @@
                         android:layout_marginTop="8dp" />
                 </LinearLayout>
             </GridLayout>
-
-            <!-- Categories with Cycle Growth -->
-            <!-- Repeat the following block per category -->
+            
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -221,8 +226,6 @@
                 android:progress="72"
                 android:progressDrawable="@drawable/progress_yellow"
                 android:layout_marginBottom="16dp" />
-
-            <!-- Repeat the category blocks below as needed -->
 
             <TextView
                 android:layout_width="wrap_content"
