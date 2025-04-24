@@ -254,7 +254,7 @@
     <LinearLayout
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="72dp"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
         android:background="#FFFFFF"
@@ -274,8 +274,8 @@
             android:focusable="true">
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
                 android:src="@drawable/home" />
 
             <TextView
@@ -299,8 +299,8 @@
             android:focusable="true">
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
                 android:src="@drawable/search" />
 
             <TextView
@@ -324,8 +324,8 @@
             android:focusable="true">
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
                 android:src="@drawable/favorite" />
 
             <TextView
@@ -349,8 +349,8 @@
             android:focusable="true">
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
                 android:src="@drawable/profile" />
 
             <TextView

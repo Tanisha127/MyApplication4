@@ -12,7 +12,6 @@ class LearningResourcesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.learning_resources_page)
 
-        // Assign links to each TextView
         setLink(findViewById(R.id.link1), "https://www.startupschool.org/")
         setLink(findViewById(R.id.link2), "https://www.coursera.org/learn/uva-darden-business-strategy")
         setLink(findViewById(R.id.link3), "https://online.hbs.edu/")
@@ -24,9 +23,7 @@ class LearningResourcesActivity : AppCompatActivity() {
         setLink(findViewById(R.id.link7), "https://trailhead.salesforce.com/")
         setLink(findViewById(R.id.link8), "https://blog.close.com/")
         setLink(findViewById(R.id.link9), "https://www.coursera.org/specializations/art-of-sales")
-
     }
-
     private fun setLink(textView: TextView, url: String) {
         textView.setOnClickListener {
             val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(url))

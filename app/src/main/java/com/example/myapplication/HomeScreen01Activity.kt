@@ -10,8 +10,7 @@ class HomeScreen01Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.home_screen_01) // link to home_screen_01.xml
-
+        setContentView(R.layout.home_screen_01)
         // Connect the profile icon click to BuyerProfileActivity
         val navProfile = findViewById<LinearLayout>(R.id.navProfile)
         navProfile.setOnClickListener {
